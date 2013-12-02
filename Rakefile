@@ -3,7 +3,7 @@ require 'rake'
 
 desc "Start Sass so that is compiles to css upon file save"
 task :sass do
-  system "sass --watch i.scss"
+  system "sass --watch sass:css"
 end # task :sass
 
 desc "Start Sass so that is compiles to css upon file save"
