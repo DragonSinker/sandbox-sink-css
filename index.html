@@ -10,7 +10,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/i.css">
   </head>
-  <body>
-
+  <body class="ptl pbl pll prl">
+    <form action="#" class="mlm mrm mlx-m mrx-m mlx-l mrx-l">
+      <header>
+        <h1 class="f2">Example Responsive Form</h1>
+        <p class="f6 gray">This form breaks at 600px and goes from left-label form to top-label form.  At about 1200px, the labels alight right.</p>
+      </header>
+        <div class="mbm cf">
+          <div class="fl-m wi-25-m prs-m fl-l wi-25-l prs-l tr-l"><label for="">Full Name</label></div>
+          <div class="fr-m wi-75-m fr-l wi-75-l"><input type="text" name="Full Name" class="wi-full wi-50-m wi-50-l"></div>
+        </div>
+        <div class="mbm cf">
+          <div class="fl-m wi-25-m prs-m fl-l wi-25-l prs-l tr-l"><label for="">Email</label></div>
+          <div class="fr-m wi-75-m fr-l wi-75-l"><input type="text" name="Email" class="wi-full wi-50-m wi-50-l"></div>
+        </div>
+        <div class="mbm cf">
+          <div class="fl-m wi-25-m prs-m fl-l wi-25-l prs-l tr-l "><label for="">Message</label></div>
+          <div class="fr-m wi-75-m fr-l wi-75-l"><textarea name="Message" cols="50" rows="10" class="wi-full "></textarea></div>
+        </div>
+      <div>
+        <fieldset class="ba-none pan">
+          <legend class="mbxs wi-full fl-m wi-25-m prs-m fl-l wi-25-l prs-l tr-l">Select a Choice</legend>
+          <div class="mbm fr-m wi-75-m fr-l wi-75-l">
+            <div class="mbxs"><input type="radio" name="SelectAChoice"><label class="mlxs f6" for="SelectAChoice_1">First Choice</label></div>
+            <div class="mbxs"><input type="radio" name="SelectAChoice"><label class="mlxs f6" for="SelectAChoice_2">Second Choice</label></div>
+            <div class="mbxs"><input type="radio" name="SelectAChoice"><label class="mlxs f6" for="SelectAChoice_3">Third Choice</label></div>
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset class="ba-none pan">
+          <legend class="mbxs wi-full fl-m wi-25-m prs-m fl-l wi-25-l prs-l tr-l">Check All That Apply</legend>
+          <div class="mbm fr-m wi-75-m fr-l wi-75-l">
+            <div class="mbxs"><input type="checkbox"><label class="mlxs f6" for="CheckAllThatApply_1">First Choice</label></div>
+            <div class="mbxs"><input type="checkbox"><label class="mlxs f6" for="CheckAllThatApply_2">Second Choice</label></div>
+            <div class="mbxs"><input type="checkbox"><label class="mlxs f6" for="CheckAllThatApply_3">Third Choice</label></div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="mbm cf">
+          <div class="fl-m wi-25-m prs-m fl-l wi-25-l prs-l tr-l">
+            <label class="" for="PullDown">Select a Choice</label>
+          </div>
+          <div class="fr-m wi-75-m fr-l wi-75-l">
+            <select class="wi-full wi-at-m wi-at-l" name="PullDown">
+              <option value="PullDown_1">First Choice</option>
+              <option value="PullDown_2">Second Choice</option>
+              <option value="PullDown_3">Third Choice</option>
+            </select>
+          </div>
+      </div>
+      <div class="fr-m wi-75-m fr-l wi-75-l">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
   </body>
 </html>
