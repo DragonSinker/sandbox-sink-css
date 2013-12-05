@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/*
+ *
+ *      SINK - All of css. Seriously. All of it.
+ *
+ */
+/* Variables and Mixins */
 /* ==========================================================================
    COLORS
    ========================================================================== */
@@ -9,9 +15,12 @@
 /*
  * Mixing for mobile first queries.
  * Two breakpoints.
- * Use like @include break(medium) { ***Styles*** }
+ * Use like @include break(medium) {
+ *  ***Styles***
+ * }
  *
  */
+/* SCSS/CSS */
 /* ==========================================================================
    ANIMATION DELAY
    ========================================================================== */
@@ -3247,13 +3256,13 @@
   border-width: .125rem; }
 
 .baw2 {
-  border-width: .125rem; }
-
-.baw3 {
   border-width: .25rem; }
 
-.baw4 {
+.baw3 {
   border-width: .5rem; }
+
+.baw4 {
+  border-width: .75rem; }
 
 .baw5 {
   border-width: 1rem; }
@@ -3271,7 +3280,7 @@
   border-top-width: .5rem; }
 
 .btw4 {
-  border-top-width: .5rem; }
+  border-top-width: .75rem; }
 
 .btw5 {
   border-top-width: 1rem; }
@@ -3289,7 +3298,7 @@
   border-bottom-width: .5rem; }
 
 .bbw4 {
-  border-bottom-width: .5rem; }
+  border-bottom-width: .75rem; }
 
 .bbw5 {
   border-bottom-width: 1rem; }
@@ -3307,7 +3316,7 @@
   border-left-width: .5rem; }
 
 .blw4 {
-  border-left-width: .5rem; }
+  border-left-width: .75rem; }
 
 .blw5 {
   border-left-width: 1rem; }
@@ -3325,7 +3334,7 @@
   border-right-width: .5rem; }
 
 .brw4 {
-  border-right-width: .5rem; }
+  border-right-width: .75rem; }
 
 .brw5 {
   border-right-width: 1rem; }
@@ -3338,13 +3347,13 @@
     border-width: .125rem; }
 
   .baw2-ns {
-    border-width: .125rem; }
+    border-width: .25rem; }
 
   .baw3-ns {
     border-width: .25rem; }
 
   .baw4-ns {
-    border-width: .5rem; }
+    border-width: .75rem; }
 
   .baw5-ns {
     border-width: 1rem; }
@@ -3362,7 +3371,7 @@
     border-top-width: .5rem; }
 
   .btw4-ns {
-    border-top-width: .5rem; }
+    border-top-width: .75rem; }
 
   .btw5-ns {
     border-top-width: 1rem; }
@@ -3380,7 +3389,7 @@
     border-bottom-width: .5rem; }
 
   .bbw4-ns {
-    border-bottom-width: .5rem; }
+    border-bottom-width: .75rem; }
 
   .bbw5-ns {
     border-bottom-width: 1rem; }
@@ -3398,7 +3407,7 @@
     border-left-width: .5rem; }
 
   .blw4-ns {
-    border-left-width: .5rem; }
+    border-left-width: .75rem; }
 
   .blw5-ns {
     border-left-width: 1rem; }
@@ -3416,7 +3425,7 @@
     border-right-width: .5rem; }
 
   .brw4-ns {
-    border-right-width: .5rem; }
+    border-right-width: .75rem; }
 
   .brw5-ns {
     border-right-width: 1rem; } }
@@ -3428,13 +3437,13 @@
     border-width: .125rem; }
 
   .baw2-m {
-    border-width: .125rem; }
-
-  .baw3-m {
     border-width: .25rem; }
 
-  .baw4-m {
+  .baw3-m {
     border-width: .5rem; }
+
+  .baw4-m {
+    border-width: .75rem; }
 
   .baw5-m {
     border-width: 1rem; }
@@ -3452,7 +3461,7 @@
     border-top-width: .5rem; }
 
   .btw4-m {
-    border-top-width: .5rem; }
+    border-top-width: .75rem; }
 
   .btw5-m {
     border-top-width: 1rem; }
@@ -3470,7 +3479,7 @@
     border-bottom-width: .5rem; }
 
   .bbw4-m {
-    border-bottom-width: .5rem; }
+    border-bottom-width: .75rem; }
 
   .bbw5-m {
     border-bottom-width: 1rem; }
@@ -3488,7 +3497,7 @@
     border-left-width: .5rem; }
 
   .blw4-m {
-    border-left-width: .5rem; }
+    border-left-width: .75rem; }
 
   .blw5-m {
     border-left-width: 1rem; }
@@ -3506,7 +3515,7 @@
     border-right-width: .5rem; }
 
   .brw4-m {
-    border-right-width: .5rem; }
+    border-right-width: .75rem; }
 
   .brw5-m {
     border-right-width: 1rem; } }
@@ -3518,13 +3527,13 @@
     border-width: .125rem; }
 
   .baw2-l {
-    border-width: .125rem; }
-
-  .baw3-l {
     border-width: .25rem; }
 
-  .baw4-l {
+  .baw3-l {
     border-width: .5rem; }
+
+  .baw4-l {
+    border-width: .75rem; }
 
   .baw5-l {
     border-width: 1rem; }
@@ -3542,7 +3551,7 @@
     border-top-width: .5rem; }
 
   .btw4-l {
-    border-top-width: .5rem; }
+    border-top-width: .75rem; }
 
   .btw5-l {
     border-top-width: 1rem; }
@@ -3560,7 +3569,7 @@
     border-bottom-width: .5rem; }
 
   .bbw4-l {
-    border-bottom-width: .5rem; }
+    border-bottom-width: .75rem; }
 
   .bbw5-l {
     border-bottom-width: 1rem; }
@@ -3578,7 +3587,7 @@
     border-left-width: .5rem; }
 
   .blw4-l {
-    border-left-width: .5rem; }
+    border-left-width: .75rem; }
 
   .blw5-l {
     border-left-width: 1rem; }
@@ -3596,14 +3605,13 @@
     border-right-width: .5rem; }
 
   .brw4-l {
-    border-right-width: .5rem; }
+    border-right-width: .75rem; }
 
   .brw5-l {
     border-right-width: 1rem; } }
 /* ==========================================================================
    BORDER BASE
    ========================================================================== */
-/* Border base */
 .ba {
   border-style: solid;
   border-width: 1px; }
@@ -5203,26 +5211,16 @@
 /* ==========================================================================
    DIMENSION UTILITIES
    ========================================================================== */
-/*
-  Make an element shrink wrap its content.  Should be combined with a float class .fl or .fr
-*/
-.shrink {
+.auto-wrap {
   display: block;
   width: auto !important; }
 
-/*
-  Make an element fill the remaining space.  N.B. This will hide overflow.
-*/
-.fill {
+.auto-fill {
   display: block;
   overflow: hidden;
   width: auto !important; }
 
-/*
-
-Make an element the width of its parent.
-*/
-.db-full {
+.dbf {
   display: block;
   width: 100%; }
 
@@ -6251,10 +6249,8 @@ Make an element the width of its parent.
   .sepia-6-l {
     filter: sepia(150%); } }
 /* ==========================================================================
-   FLEXBOX
-
+   FLEXBOX - ALIGN CONTENT
    ========================================================================== */
-/* Align Content */
 .ac-fs {
   align-content: flex-start; }
 
@@ -6276,7 +6272,72 @@ Make an element the width of its parent.
 .ac-i {
   align-content: inherit; }
 
-/* Align Items */
+@media screen and (min-width: 48em) {
+  .ac-fs-ns {
+    align-content: flex-start; }
+
+  .ac-fe-ns {
+    align-content: flex-end; }
+
+  .ac-c-ns {
+    align-content: center; }
+
+  .ac-sb-ns {
+    align-content: space-between; }
+
+  .ac-sa-ns {
+    align-content: space-around; }
+
+  .ac-s-ns {
+    align-content: stretch; }
+
+  .ac-i-ns {
+    align-content: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .ac-fs-m {
+    align-content: flex-start; }
+
+  .ac-fe-m {
+    align-content: flex-end; }
+
+  .ac-c-m {
+    align-content: center; }
+
+  .ac-sb-m {
+    align-content: space-between; }
+
+  .ac-sa-m {
+    align-content: space-around; }
+
+  .ac-s-m {
+    align-content: stretch; }
+
+  .ac-i-m {
+    align-content: inherit; } }
+@media screen and (min-width: 64em) {
+  .ac-fs-l {
+    align-content: flex-start; }
+
+  .ac-fe-l {
+    align-content: flex-end; }
+
+  .ac-c-l {
+    align-content: center; }
+
+  .ac-sb-l {
+    align-content: space-between; }
+
+  .ac-sa-l {
+    align-content: space-around; }
+
+  .ac-s-l {
+    align-content: stretch; }
+
+  .ac-i-l {
+    align-content: inherit; } }
+/* ==========================================================================
+   FLEXBOX - ALIGN ITEMS
+   ========================================================================== */
 .ai-fs {
   align-items: flex-start; }
 
@@ -6295,6 +6356,63 @@ Make an element the width of its parent.
 .ai-i {
   align-items: inherit; }
 
+@media screen and (min-width: 48em) {
+  .ai-fs-ns {
+    align-items: flex-start; }
+
+  .ai-fe-ns {
+    align-items: flex-end; }
+
+  .ai-c-ns {
+    align-items: center; }
+
+  .ai-b-ns {
+    align-items: baseline; }
+
+  .ai-s-ns {
+    align-items: stretch; }
+
+  .ai-i-ns {
+    align-items: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .ai-fs-m {
+    align-items: flex-start; }
+
+  .ai-fe-m {
+    align-items: flex-end; }
+
+  .ai-c-m {
+    align-items: center; }
+
+  .ai-b-m {
+    align-items: baseline; }
+
+  .ai-s-m {
+    align-items: stretch; }
+
+  .ai-i-m {
+    align-items: inherit; } }
+@media screen and (min-width: 64em) {
+  .ai-fs-l {
+    align-items: flex-start; }
+
+  .ai-fe-l {
+    align-items: flex-end; }
+
+  .ai-c-l {
+    align-items: center; }
+
+  .ai-b-l {
+    align-items: baseline; }
+
+  .ai-s-l {
+    align-items: stretch; }
+
+  .ai-i-l {
+    align-items: inherit; } }
+/* ==========================================================================
+   FLEXBOX - ALIGN SELF
+   ========================================================================== */
 .as-a {
   align-self: auto; }
 
@@ -6316,128 +6434,7 @@ Make an element the width of its parent.
 .as-i {
   align-self: inherit; }
 
-/* Flex Basis */
-.fb-i {
-  flex-basis: inherit; }
-
-/* Flex Direction */
-.fd-row {
-  flex-direction: row; }
-
-.fd-rev {
-  flex-direction: row-reverse; }
-
-.fd-col {
-  flex-direction: column; }
-
-.fd-colrev {
-  flex-direction: column-reverse; }
-
-.fd-i {
-  flex-direction: inherit; }
-
-/* Flex Wrap */
-.fw-no {
-  flex-wrap: nowrap; }
-
-.fw-wrap {
-  flex-wrap: wrap; }
-
-.fw-wraprev {
-  flex-wrap: wrap-reverse; }
-
-.fw-i {
-  flex-wrap: inherit; }
-
-.fls-1 {
-  flex-shrink: 1; }
-
-.fls-2 {
-  flex-shrink: 2; }
-
-.fls-3 {
-  flex-shrink: 3; }
-
-.fls-4 {
-  flex-shrink: 4; }
-
-.fls-i {
-  flex-shrink: inherit; }
-
-.fg-1 {
-  flex-grow: 1; }
-
-.fg-2 {
-  flex-grow: 2; }
-
-.fg-3 {
-  flex-grow: 3; }
-
-.fg-4 {
-  flex-grow: 4; }
-
-.fg-i {
-  flex-grow: inherit; }
-
-.jc-fs {
-  justify-content: flex-start; }
-
-.jc-f3 {
-  justify-content: flex-end; }
-
-.jc-c {
-  justify-content: center; }
-
-.jc-sb {
-  justify-content: space-between; }
-
-.jc-sa {
-  justify-content: space-around; }
-
-.jc-i {
-  justify-content: inherit; }
-
 @media screen and (min-width: 48em) {
-  .ac-fs-ns {
-    align-content: flex-start; }
-
-  .ac-fe-ns {
-    align-content: flex-end; }
-
-  .ac-c-ns {
-    align-content: center; }
-
-  .ac-sb-ns {
-    align-content: space-between; }
-
-  .ac-sa-ns {
-    align-content: space-around; }
-
-  .ac-s-ns {
-    align-content: stretch; }
-
-  .ac-i-ns {
-    align-content: inherit; }
-
-  /* Align Items */
-  .ai-fs-ns {
-    align-items: flex-start; }
-
-  .ai-fe-ns {
-    align-items: flex-end; }
-
-  .ai-c-ns {
-    align-items: center; }
-
-  .ai-b-ns {
-    align-items: baseline; }
-
-  .ai-s-ns {
-    align-items: stretch; }
-
-  .ai-i-ns {
-    align-items: inherit; }
-
   .as-a-ns {
     align-self: auto; }
 
@@ -6457,129 +6454,8 @@ Make an element the width of its parent.
     align-self: stretch; }
 
   .as-i-ns {
-    align-self: inherit; }
-
-  /* Flex Basis */
-  .fb-i-ns {
-    flex-basis: inherit; }
-
-  /* Flex Direction */
-  .fd-row-ns {
-    flex-direction: row; }
-
-  .fd-rev-ns {
-    flex-direction: row-reverse; }
-
-  .fd-col-ns {
-    flex-direction: column; }
-
-  .fd-colrev-ns {
-    flex-direction: column-reverse; }
-
-  .fd-i-ns {
-    flex-direction: inherit; }
-
-  /* Flex Wrap */
-  .fw-no-ns {
-    flex-wrap: nowrap; }
-
-  .fw-wrap-ns {
-    flex-wrap: wrap; }
-
-  .fw-wraprev-ns {
-    flex-wrap: wrap-reverse; }
-
-  .fw-i-ns {
-    flex-wrap: inherit; }
-
-  .fls-1-ns {
-    flex-shrink: 1; }
-
-  .fls-2-ns {
-    flex-shrink: 2; }
-
-  .fls-3-ns {
-    flex-shrink: 3; }
-
-  .fls-4-ns {
-    flex-shrink: 4; }
-
-  .fls-i-ns {
-    flex-shrink: inherit; }
-
-  .fg-1-ns {
-    flex-grow: 1; }
-
-  .fg-2-ns {
-    flex-grow: 2; }
-
-  .fg-3-ns {
-    flex-grow: 3; }
-
-  .fg-4-ns {
-    flex-grow: 4; }
-
-  .fg-i-ns {
-    flex-grow: inherit; }
-
-  .jc-fs-ns {
-    justify-content: flex-start; }
-
-  .jc-f3-ns {
-    justify-content: flex-end; }
-
-  .jc-c-ns {
-    justify-content: center; }
-
-  .jc-sb-ns {
-    justify-content: space-between; }
-
-  .jc-sa-ns {
-    justify-content: space-around; }
-
-  .jc-i-ns {
-    justify-content: inherit; } }
+    align-self: inherit; } }
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .ac-fs-m {
-    align-content: flex-start; }
-
-  .ac-fe-m {
-    align-content: flex-end; }
-
-  .ac-c-m {
-    align-content: center; }
-
-  .ac-sb-m {
-    align-content: space-between; }
-
-  .ac-sa-m {
-    align-content: space-around; }
-
-  .ac-s-m {
-    align-content: stretch; }
-
-  .ac-i-m {
-    align-content: inherit; }
-
-  /* Align Items */
-  .ai-fs-m {
-    align-items: flex-start; }
-
-  .ai-fe-m {
-    align-items: flex-end; }
-
-  .ai-c-m {
-    align-items: center; }
-
-  .ai-b-m {
-    align-items: baseline; }
-
-  .ai-s-m {
-    align-items: stretch; }
-
-  .ai-i-m {
-    align-items: inherit; }
-
   .as-a-m {
     align-self: auto; }
 
@@ -6599,129 +6475,8 @@ Make an element the width of its parent.
     align-self: stretch; }
 
   .as-i-m {
-    align-self: inherit; }
-
-  /* Flex Basis */
-  .fb-i-m {
-    flex-basis: inherit; }
-
-  /* Flex Direction */
-  .fd-row-m {
-    flex-direction: row; }
-
-  .fd-rev-m {
-    flex-direction: row-reverse; }
-
-  .fd-col-m {
-    flex-direction: column; }
-
-  .fd-colrev-m {
-    flex-direction: column-reverse; }
-
-  .fd-i-m {
-    flex-direction: inherit; }
-
-  /* Flex Wrap */
-  .fw-no-m {
-    flex-wrap: nowrap; }
-
-  .fw-wrap-m {
-    flex-wrap: wrap; }
-
-  .fw-wraprev-m {
-    flex-wrap: wrap-reverse; }
-
-  .fw-i-m {
-    flex-wrap: inherit; }
-
-  .fls-1-m {
-    flex-shrink: 1; }
-
-  .fls-2-m {
-    flex-shrink: 2; }
-
-  .fls-3-m {
-    flex-shrink: 3; }
-
-  .fls-4-m {
-    flex-shrink: 4; }
-
-  .fls-i-m {
-    flex-shrink: inherit; }
-
-  .fg-1-m {
-    flex-grow: 1; }
-
-  .fg-2-m {
-    flex-grow: 2; }
-
-  .fg-3-m {
-    flex-grow: 3; }
-
-  .fg-4-m {
-    flex-grow: 4; }
-
-  .fg-i-m {
-    flex-grow: inherit; }
-
-  .jc-fs-m {
-    justify-content: flex-start; }
-
-  .jc-f3-m {
-    justify-content: flex-end; }
-
-  .jc-c-m {
-    justify-content: center; }
-
-  .jc-sb-m {
-    justify-content: space-between; }
-
-  .jc-sa-m {
-    justify-content: space-around; }
-
-  .jc-i-m {
-    justify-content: inherit; } }
+    align-self: inherit; } }
 @media screen and (min-width: 64em) {
-  .ac-fs-l {
-    align-content: flex-start; }
-
-  .ac-fe-l {
-    align-content: flex-end; }
-
-  .ac-c-l {
-    align-content: center; }
-
-  .ac-sb-l {
-    align-content: space-between; }
-
-  .ac-sa-l {
-    align-content: space-around; }
-
-  .ac-s-l {
-    align-content: stretch; }
-
-  .ac-i-l {
-    align-content: inherit; }
-
-  /* Align Items */
-  .ai-fs-l {
-    align-items: flex-start; }
-
-  .ai-fe-l {
-    align-items: flex-end; }
-
-  .ai-c-l {
-    align-items: center; }
-
-  .ai-b-l {
-    align-items: baseline; }
-
-  .ai-s-l {
-    align-items: stretch; }
-
-  .ai-i-l {
-    align-items: inherit; }
-
   .as-a-l {
     align-self: auto; }
 
@@ -6741,13 +6496,71 @@ Make an element the width of its parent.
     align-self: stretch; }
 
   .as-i-l {
-    align-self: inherit; }
+    align-self: inherit; } }
+/* ==========================================================================
+   FLEXBOX - FLEX BASIS
+   ========================================================================== */
+.fb-i {
+  flex-basis: inherit; }
 
-  /* Flex Basis */
+@media screen and (min-width: 48em) {
+  .fb-i-ns {
+    flex-basis: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fb-i-m {
+    flex-basis: inherit; } }
+@media screen and (min-width: 64em) {
   .fb-i-l {
-    flex-basis: inherit; }
+    flex-basis: inherit; } }
+/* ==========================================================================
+   FLEXBOX - FLEX DIRECTION
+   ========================================================================== */
+.fd-row {
+  flex-direction: row; }
 
-  /* Flex Direction */
+.fd-rev {
+  flex-direction: row-reverse; }
+
+.fd-col {
+  flex-direction: column; }
+
+.fd-colrev {
+  flex-direction: column-reverse; }
+
+.fd-i {
+  flex-direction: inherit; }
+
+@media screen and (min-width: 48em) {
+  .fd-row-ns {
+    flex-direction: row; }
+
+  .fd-rev-ns {
+    flex-direction: row-reverse; }
+
+  .fd-col-ns {
+    flex-direction: column; }
+
+  .fd-colrev-ns {
+    flex-direction: column-reverse; }
+
+  .fd-i-ns {
+    flex-direction: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fd-row-m {
+    flex-direction: row; }
+
+  .fd-rev-m {
+    flex-direction: row-reverse; }
+
+  .fd-col-m {
+    flex-direction: column; }
+
+  .fd-colrev-m {
+    flex-direction: column-reverse; }
+
+  .fd-i-m {
+    flex-direction: inherit; } }
+@media screen and (min-width: 64em) {
   .fd-row-l {
     flex-direction: row; }
 
@@ -6761,36 +6574,56 @@ Make an element the width of its parent.
     flex-direction: column-reverse; }
 
   .fd-i-l {
-    flex-direction: inherit; }
+    flex-direction: inherit; } }
+/* ==========================================================================
+   FLEXBOX - FLEX GROW
+   ========================================================================== */
+.fg-1 {
+  flex-grow: 1; }
 
-  /* Flex Wrap */
-  .fw-no-l {
-    flex-wrap: nowrap; }
+.fg-2 {
+  flex-grow: 2; }
 
-  .fw-wrap-l {
-    flex-wrap: wrap; }
+.fg-3 {
+  flex-grow: 3; }
 
-  .fw-wraprev-l {
-    flex-wrap: wrap-reverse; }
+.fg-4 {
+  flex-grow: 4; }
 
-  .fw-i-l {
-    flex-wrap: inherit; }
+.fg-i {
+  flex-grow: inherit; }
 
-  .fls-1-l {
-    flex-shrink: 1; }
+@media screen and (min-width: 48em) {
+  .fg-1-ns {
+    flex-grow: 1; }
 
-  .fls-2-l {
-    flex-shrink: 2; }
+  .fg-2-ns {
+    flex-grow: 2; }
 
-  .fls-3-l {
-    flex-shrink: 3; }
+  .fg-3-ns {
+    flex-grow: 3; }
 
-  .fls-4-l {
-    flex-shrink: 4; }
+  .fg-4-ns {
+    flex-grow: 4; }
 
-  .fls-i-l {
-    flex-shrink: inherit; }
+  .fg-i-ns {
+    flex-grow: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fg-1-m {
+    flex-grow: 1; }
 
+  .fg-2-m {
+    flex-grow: 2; }
+
+  .fg-3-m {
+    flex-grow: 3; }
+
+  .fg-4-m {
+    flex-grow: 4; }
+
+  .fg-i-m {
+    flex-grow: inherit; } }
+@media screen and (min-width: 64em) {
   .fg-1-l {
     flex-grow: 1; }
 
@@ -6804,8 +6637,65 @@ Make an element the width of its parent.
     flex-grow: 4; }
 
   .fg-i-l {
-    flex-grow: inherit; }
+    flex-grow: inherit; } }
+/* ==========================================================================
+   FLEXBOX - JUSTIFY CONTENT
+   ========================================================================== */
+.jc-fs {
+  justify-content: flex-start; }
 
+.jc-f3 {
+  justify-content: flex-end; }
+
+.jc-c {
+  justify-content: center; }
+
+.jc-sb {
+  justify-content: space-between; }
+
+.jc-sa {
+  justify-content: space-around; }
+
+.jc-i {
+  justify-content: inherit; }
+
+@media screen and (min-width: 48em) {
+  .jc-fs-ns {
+    justify-content: flex-start; }
+
+  .jc-f3-ns {
+    justify-content: flex-end; }
+
+  .jc-c-ns {
+    justify-content: center; }
+
+  .jc-sb-ns {
+    justify-content: space-between; }
+
+  .jc-sa-ns {
+    justify-content: space-around; }
+
+  .jc-i-ns {
+    justify-content: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .jc-fs-m {
+    justify-content: flex-start; }
+
+  .jc-f3-m {
+    justify-content: flex-end; }
+
+  .jc-c-m {
+    justify-content: center; }
+
+  .jc-sb-m {
+    justify-content: space-between; }
+
+  .jc-sa-m {
+    justify-content: space-around; }
+
+  .jc-i-m {
+    justify-content: inherit; } }
+@media screen and (min-width: 64em) {
   .jc-fs-l {
     justify-content: flex-start; }
 
@@ -6823,6 +6713,120 @@ Make an element the width of its parent.
 
   .jc-i-l {
     justify-content: inherit; } }
+/* ==========================================================================
+   FLEXBOX - FLEX SHRINK
+   ========================================================================== */
+.fls-1 {
+  flex-shrink: 1; }
+
+.fls-2 {
+  flex-shrink: 2; }
+
+.fls-3 {
+  flex-shrink: 3; }
+
+.fls-4 {
+  flex-shrink: 4; }
+
+.fls-i {
+  flex-shrink: inherit; }
+
+@media screen and (min-width: 48em) {
+  .fls-1-ns {
+    flex-shrink: 1; }
+
+  .fls-2-ns {
+    flex-shrink: 2; }
+
+  .fls-3-ns {
+    flex-shrink: 3; }
+
+  .fls-4-ns {
+    flex-shrink: 4; }
+
+  .fls-i-ns {
+    flex-shrink: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fls-1 {
+    flex-shrink: 1; }
+
+  .fls-2 {
+    flex-shrink: 2; }
+
+  .fls-3 {
+    flex-shrink: 3; }
+
+  .fls-4 {
+    flex-shrink: 4; }
+
+  .fls-i {
+    flex-shrink: inherit; } }
+@media screen and (min-width: 64em) {
+  .fls-1 {
+    flex-shrink: 1; }
+
+  .fls-2 {
+    flex-shrink: 2; }
+
+  .fls-3 {
+    flex-shrink: 3; }
+
+  .fls-4 {
+    flex-shrink: 4; }
+
+  .fls-i {
+    flex-shrink: inherit; } }
+/* ==========================================================================
+   FLEXBOX - FLEX WRAP
+   ========================================================================== */
+.fw-no {
+  flex-wrap: nowrap; }
+
+.fw-wrap {
+  flex-wrap: wrap; }
+
+.fw-wraprev {
+  flex-wrap: wrap-reverse; }
+
+.fw-i {
+  flex-wrap: inherit; }
+
+@media screen and (min-width: 48em) {
+  .fw-no-ns {
+    flex-wrap: nowrap; }
+
+  .fw-wrap-ns {
+    flex-wrap: wrap; }
+
+  .fw-wraprev-ns {
+    flex-wrap: wrap-reverse; }
+
+  .fw-i-ns {
+    flex-wrap: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fw-no-m {
+    flex-wrap: nowrap; }
+
+  .fw-wrap-m {
+    flex-wrap: wrap; }
+
+  .fw-wraprev-m {
+    flex-wrap: wrap-reverse; }
+
+  .fw-i-m {
+    flex-wrap: inherit; } }
+@media screen and (min-width: 64em) {
+  .fw-no-l {
+    flex-wrap: nowrap; }
+
+  .fw-wrap-l {
+    flex-wrap: wrap; }
+
+  .fw-wraprev-l {
+    flex-wrap: wrap-reverse; }
+
+  .fw-i-l {
+    flex-wrap: inherit; } }
 /* ==========================================================================
    FLOATS
    ========================================================================== */
@@ -10012,6 +10016,7 @@ table {
 /* ==========================================================================
    SKINS
    ========================================================================== */
+/* Grays */
 .blk {
   color: #111111; }
 
@@ -13193,7 +13198,6 @@ table {
 /* ==========================================================================
    TRANSITION PROPERTY
    ========================================================================== */
-/* Transition Properties */
 .tp-n {
   transition-property: none; }
 
@@ -13479,13 +13483,14 @@ table {
 .f5 {
   font-size: 1rem; }
 
-.f6 {
-  font-size: .85rem; }
-
+.f6,
 .small {
   font-size: .85rem; }
 
 @media screen and (min-width: 48em) {
+  .mega-ns {
+    font-size: 3rem; }
+
   .f1-ns {
     font-size: 2rem; }
 
@@ -13504,6 +13509,9 @@ table {
   .f6-ns {
     font-size: .85rem; } }
 @media screen and (min-width: 48em) and (max-width: 64em) {
+  .mega-m {
+    font-size: 3rem; }
+
   .f1-m {
     font-size: 2rem; }
 
@@ -13542,6 +13550,93 @@ table {
 
   .f6-l {
     font-size: 1rem; } }
+/* ==========================================================================
+   UNICODE BIDI
+   ========================================================================== */
+.ub-norm {
+  unicode-bidi: normal; }
+
+.ub-embed {
+  unicode-bidi: embed; }
+
+.ub-iso {
+  unicode-bidi: isolate; }
+
+.ub-bidi-override {
+  unicode-bidi: bidi-override; }
+
+.ub-iso-override {
+  unicode-bidi: isolate-override; }
+
+.ub-pt {
+  unicode-bidi: plaintext; }
+
+.ub-i {
+  unicode-bidi: inherit; }
+
+@media screen and (min-width: 48em) {
+  .ub-norm-ns {
+    unicode-bidi: normal; }
+
+  .ub-embed-ns {
+    unicode-bidi: embed; }
+
+  .ub-iso-ns {
+    unicode-bidi: isolate; }
+
+  .ub-bidi-override-ns {
+    unicode-bidi: bidi-override; }
+
+  .ub-iso-override-ns {
+    unicode-bidi: isolate-override; }
+
+  .ub-pt-ns {
+    unicode-bidi: plaintext; }
+
+  .ub-i-ns {
+    unicode-bidi: inherit; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .ub-norm-m {
+    unicode-bidi: normal; }
+
+  .ub-embed-m {
+    unicode-bidi: embed; }
+
+  .ub-iso-m {
+    unicode-bidi: isolate; }
+
+  .ub-bidi-override-m {
+    unicode-bidi: bidi-override; }
+
+  .ub-iso-override-m {
+    unicode-bidi: isolate-override; }
+
+  .ub-pt-m {
+    unicode-bidi: plaintext; }
+
+  .ub-i-m {
+    unicode-bidi: inherit; } }
+@media screen and (min-width: 64em) {
+  .ub-norm-l {
+    unicode-bidi: normal; }
+
+  .ub-embed-l {
+    unicode-bidi: embed; }
+
+  .ub-iso-l {
+    unicode-bidi: isolate; }
+
+  .ub-bidi-override-l {
+    unicode-bidi: bidi-override; }
+
+  .ub-iso-override-l {
+    unicode-bidi: isolate-override; }
+
+  .ub-pt-l {
+    unicode-bidi: plaintext; }
+
+  .ub-i-l {
+    unicode-bidi: inherit; } }
 /* ==========================================================================
    UNICODE RANGES
    ========================================================================== */
@@ -13796,9 +13891,9 @@ table {
 
 /*
     Text that is hidden but accessible
-    From: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+    Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 */
-.clipped {
+.clip {
   position: fixed !important;
   _position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -13821,7 +13916,7 @@ table {
   .vis-bf-hid-ns {
     backface-visibility: hidden; }
 
-  .clipped-ns {
+  .clip-ns {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -13843,7 +13938,7 @@ table {
   .vis-bf-hid-m {
     backface-visibility: hidden; }
 
-  .clipped-m {
+  .clip-m {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -13865,7 +13960,7 @@ table {
   .vis-bf-hid-l {
     backface-visibility: hidden; }
 
-  .clipped-l {
+  .clip-l {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -14342,9 +14437,7 @@ table {
     word-spacing: 0.3em; }
 
   .ws2-ns {
-    word-spacing: -0.43em; }
-
-  /* For eliminating space between inline-block elements */ }
+    word-spacing: -0.43em; } }
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .wsn-m {
     word-spacing: normal; }
@@ -14353,9 +14446,7 @@ table {
     word-spacing: 0.3em; }
 
   .ws2-m {
-    word-spacing: -0.43em; }
-
-  /* For eliminating space between inline-block elements */ }
+    word-spacing: -0.43em; } }
 @media screen and (min-width: 64em) {
   .wsn-l {
     word-spacing: normal; }
@@ -14364,9 +14455,7 @@ table {
     word-spacing: 0.3em; }
 
   .ws2-l {
-    word-spacing: -0.43em; }
-
-  /* For eliminating space between inline-block elements */ }
+    word-spacing: -0.43em; } }
 /* ==========================================================================
    WORD WRAP
    ========================================================================== */

@@ -7,6 +7,7 @@ task :sass do
 end # task :sass
 
 desc "Start Sass so that is compiles to css upon file save"
-task :size do
-  system "sass i.scss:i.css --style compressed && find . -name 'i.css' -exec ls -lh {} \+ >> file-size-diff.txt && gzip -9 i.css -c >> file-size-diff.txt"
+task :minify do
+  system "sass --watch sass:css --style compressed"
 end # task :minify
+

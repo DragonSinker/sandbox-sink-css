@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 .sass-cache/
 file-size-diff.txt
+=======
+# Project files to ignore
+
+.sass-cache/
+
+>>>>>>> upstream/master
