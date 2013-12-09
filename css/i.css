@@ -20,7 +20,6 @@
  * }
  *
  */
-/* SCSS/CSS */
 /* ==========================================================================
    VARIABLES
    ========================================================================== */
@@ -32,6 +31,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* SCSS/CSS */
 /* ==========================================================================
    ANIMATION DELAY
    ========================================================================== */
@@ -6283,132 +6283,7 @@
 .ac-i {
   align-content: inherit; }
 
-<<<<<<< HEAD
-/* Align Items */
-.ai-fs {
-  align-items: flex-start; }
-
-.ai-fe {
-  align-items: flex-end; }
-
-.ai-c {
-  align-items: center; }
-
-.ai-b {
-  align-items: baseline; }
-
-.ai-s {
-  align-items: stretch; }
-
-.ai-i {
-  align-items: inherit; }
-
-.as-a {
-  align-self: auto; }
-
-.as-fs {
-  align-self: flex-start; }
-
-.as-fe {
-  align-self: flex-end; }
-
-.as-c {
-  align-self: center; }
-
-.as-b {
-  align-self: baseline; }
-
-.as-s {
-  align-self: stretch; }
-
-.as-i {
-  align-self: inherit; }
-
-/* Flex Basis */
-.fb-i {
-  flex-basis: inherit; }
-
-/* Flex Direction */
-.fd-row {
-  flex-direction: row; }
-
-.fd-rev {
-  flex-direction: row-reverse; }
-
-.fd-col {
-  flex-direction: column; }
-
-.fd-colrev {
-  flex-direction: column-reverse; }
-
-.fd-i {
-  flex-direction: inherit; }
-
-/* Flex Wrap */
-.fw-no {
-  flex-wrap: nowrap; }
-
-.fw-wrap {
-  flex-wrap: wrap; }
-
-.fw-wraprev {
-  flex-wrap: wrap-reverse; }
-
-.fw-i {
-  flex-wrap: inherit; }
-
-.fls-1 {
-  flex-shrink: 1; }
-
-.fls-2 {
-  flex-shrink: 2; }
-
-.fls-3 {
-  flex-shrink: 3; }
-
-.fls-4 {
-  flex-shrink: 4; }
-
-.fls-i {
-  flex-shrink: inherit; }
-
-.fg-1 {
-  flex-grow: 1; }
-
-.fg-2 {
-  flex-grow: 2; }
-
-.fg-3 {
-  flex-grow: 3; }
-
-.fg-4 {
-  flex-grow: 4; }
-
-.fg-i {
-  flex-grow: inherit; }
-
-.jc-fs {
-  justify-content: flex-start; }
-
-.jc-f3 {
-  justify-content: flex-end; }
-
-.jc-c {
-  justify-content: center; }
-
-.jc-sb {
-  justify-content: space-between; }
-
-.jc-sa {
-  justify-content: space-around; }
-
-.jc-i {
-  justify-content: inherit; }
-
 @media screen and (min-width: 37.5em) {
-=======
-@media screen and (min-width: 48em) {
->>>>>>> master
   .ac-fs-ns {
     align-content: flex-start; }
 
@@ -6429,7 +6304,7 @@
 
   .ac-i-ns {
     align-content: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .ac-fs-m {
     align-content: flex-start; }
 
@@ -6450,7 +6325,7 @@
 
   .ac-i-m {
     align-content: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .ac-fs-l {
     align-content: flex-start; }
 
@@ -6492,7 +6367,7 @@
 .ai-i {
   align-items: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .ai-fs-ns {
     align-items: flex-start; }
 
@@ -6510,7 +6385,7 @@
 
   .ai-i-ns {
     align-items: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .ai-fs-m {
     align-items: flex-start; }
 
@@ -6528,7 +6403,7 @@
 
   .ai-i-m {
     align-items: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .ai-fs-l {
     align-items: flex-start; }
 
@@ -6544,13 +6419,6 @@
   .ai-s-l {
     align-items: stretch; }
 
-<<<<<<< HEAD
-  .jc-i-ns {
-    justify-content: inherit; } }
-@media screen and (min-width: 37.5em) and (max-width: 75em) {
-  .ac-fs-m {
-    align-content: flex-start; }
-=======
   .ai-i-l {
     align-items: inherit; } }
 /* ==========================================================================
@@ -6558,7 +6426,6 @@
    ========================================================================== */
 .as-a {
   align-self: auto; }
->>>>>>> master
 
 .as-fs {
   align-self: flex-start; }
@@ -6578,7 +6445,7 @@
 .as-i {
   align-self: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .as-a-ns {
     align-self: auto; }
 
@@ -6599,7 +6466,7 @@
 
   .as-i-ns {
     align-self: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .as-a-m {
     align-self: auto; }
 
@@ -6620,7 +6487,7 @@
 
   .as-i-m {
     align-self: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .as-a-l {
     align-self: auto; }
 
@@ -6647,13 +6514,13 @@
 .fb-i {
   flex-basis: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .fb-i-ns {
     flex-basis: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .fb-i-m {
     flex-basis: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .fb-i-l {
     flex-basis: inherit; } }
 /* ==========================================================================
@@ -6674,7 +6541,7 @@
 .fd-i {
   flex-direction: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .fd-row-ns {
     flex-direction: row; }
 
@@ -6689,7 +6556,7 @@
 
   .fd-i-ns {
     flex-direction: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .fd-row-m {
     flex-direction: row; }
 
@@ -6704,7 +6571,7 @@
 
   .fd-i-m {
     flex-direction: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .fd-row-l {
     flex-direction: row; }
 
@@ -6737,7 +6604,7 @@
 .fg-i {
   flex-grow: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .fg-1-ns {
     flex-grow: 1; }
 
@@ -6752,7 +6619,7 @@
 
   .fg-i-ns {
     flex-grow: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .fg-1-m {
     flex-grow: 1; }
 
@@ -6767,7 +6634,7 @@
 
   .fg-i-m {
     flex-grow: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .fg-1-l {
     flex-grow: 1; }
 
@@ -6803,7 +6670,7 @@
 .jc-i {
   justify-content: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .jc-fs-ns {
     justify-content: flex-start; }
 
@@ -6821,7 +6688,7 @@
 
   .jc-i-ns {
     justify-content: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .jc-fs-m {
     justify-content: flex-start; }
 
@@ -6839,15 +6706,9 @@
 
   .jc-i-m {
     justify-content: inherit; } }
-<<<<<<< HEAD
 @media screen and (min-width: 75em) {
-  .ac-fs-l {
-    align-content: flex-start; }
-=======
-@media screen and (min-width: 64em) {
   .jc-fs-l {
     justify-content: flex-start; }
->>>>>>> master
 
   .jc-f3-l {
     justify-content: flex-end; }
@@ -6881,7 +6742,7 @@
 .fls-i {
   flex-shrink: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .fls-1-ns {
     flex-shrink: 1; }
 
@@ -6896,7 +6757,7 @@
 
   .fls-i-ns {
     flex-shrink: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .fls-1 {
     flex-shrink: 1; }
 
@@ -6911,7 +6772,7 @@
 
   .fls-i {
     flex-shrink: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .fls-1 {
     flex-shrink: 1; }
 
@@ -6941,7 +6802,7 @@
 .fw-i {
   flex-wrap: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .fw-no-ns {
     flex-wrap: nowrap; }
 
@@ -6953,7 +6814,7 @@
 
   .fw-i-ns {
     flex-wrap: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .fw-no-m {
     flex-wrap: nowrap; }
 
@@ -6965,7 +6826,7 @@
 
   .fw-i-m {
     flex-wrap: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .fw-no-l {
     flex-wrap: nowrap; }
 
@@ -13645,14 +13506,10 @@ table {
 .small {
   font-size: .85rem; }
 
-<<<<<<< HEAD
 @media screen and (min-width: 37.5em) {
-=======
-@media screen and (min-width: 48em) {
   .mega-ns {
     font-size: 3rem; }
 
->>>>>>> master
   .f1-ns {
     font-size: 2rem; }
 
@@ -13670,14 +13527,10 @@ table {
 
   .f6-ns {
     font-size: .85rem; } }
-<<<<<<< HEAD
 @media screen and (min-width: 37.5em) and (max-width: 75em) {
-=======
-@media screen and (min-width: 48em) and (max-width: 64em) {
   .mega-m {
     font-size: 3rem; }
 
->>>>>>> master
   .f1-m {
     font-size: 2rem; }
 
@@ -13740,7 +13593,7 @@ table {
 .ub-i {
   unicode-bidi: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 37.5em) {
   .ub-norm-ns {
     unicode-bidi: normal; }
 
@@ -13761,7 +13614,7 @@ table {
 
   .ub-i-ns {
     unicode-bidi: inherit; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .ub-norm-m {
     unicode-bidi: normal; }
 
@@ -13782,7 +13635,7 @@ table {
 
   .ub-i-m {
     unicode-bidi: inherit; } }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .ub-norm-l {
     unicode-bidi: normal; }
 
@@ -14603,15 +14456,8 @@ table {
     word-spacing: 0.3em; }
 
   .ws2-ns {
-<<<<<<< HEAD
-    word-spacing: -0.43em; }
-
-  /* For eliminating space between inline-block elements */ }
-@media screen and (min-width: 37.5em) and (max-width: 75em) {
-=======
     word-spacing: -0.43em; } }
-@media screen and (min-width: 48em) and (max-width: 64em) {
->>>>>>> master
+@media screen and (min-width: 37.5em) and (max-width: 75em) {
   .wsn-m {
     word-spacing: normal; }
 
@@ -14619,15 +14465,8 @@ table {
     word-spacing: 0.3em; }
 
   .ws2-m {
-<<<<<<< HEAD
-    word-spacing: -0.43em; }
-
-  /* For eliminating space between inline-block elements */ }
-@media screen and (min-width: 75em) {
-=======
     word-spacing: -0.43em; } }
-@media screen and (min-width: 64em) {
->>>>>>> master
+@media screen and (min-width: 75em) {
   .wsn-l {
     word-spacing: normal; }
 
